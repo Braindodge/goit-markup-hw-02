@@ -1,11 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .logo-b {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -14,7 +14,7 @@ body {
   color: #4d5ae5;
 }
 
-.span-b {
+.logo-b .span-b {
   color: #2e2f42;
 }
 
@@ -24,7 +24,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -32,26 +31,20 @@ body {
   color: #404bbf;
 }
 
-.Contacts {
-  font-style: normal;
-}
-
-.studio-b {
+.Contacts a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.studio-b:hover,
-.studio-b:focus {
+.Contacts a:hover,
+.Contacts a:focus {
   color: #404bbf;
 }
 
-.Section-bir {
+.section-bir {
   background-color: #2e2f42;
-  padding: 50px 0;
-  text-align: center;
 }
 
 .baslik-bir {
@@ -71,10 +64,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease-in-out;
 }
 
 .button-bir:hover,
@@ -82,31 +71,8 @@ body {
   background-color: #404bbf;
 }
 
-.section-iki ul,
-.section-dort ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.baslik-uc {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.Paragraf-iki,
-.Marketing {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 .section-uc {
   background-color: #f4f4fd;
-  padding: 50px 0;
 }
 
 .baslik-iki {
@@ -119,45 +85,20 @@ body {
 }
 
 .list-uc {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+
+.baslik-uc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .paragraf-bir {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.footer-own {
-  background-color: #2e2f42;
-  padding: 40px 0;
-  text-align: center;
-}
-
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.footer-logo-iki {
-  color: #f4f4fd;
-}
-
-.footer-p {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-  font-size: 14px;
-  max-width: 500px;
-  margin: 0 auto;
+  color
 }
