@@ -1,12 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
-  background-color: #f4f4fd;
-  color: #434455;
 }
 
-/* Header Styles */
 header {
   background-color: #4d5ae5;
   padding: 20px;
@@ -14,10 +13,17 @@ header {
 
 nav a.logo-b {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   text-decoration: none;
+}
+
+nav a.logo-b span {
+  color: #2e2f42;
 }
 
 nav ul {
@@ -31,10 +37,21 @@ nav ul li {
 }
 
 nav ul li a.nav-link {
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-decoration: none;
+}
+
+nav ul li a.nav-link:hover,
+nav ul li a.nav-link:focus {
+  color: #404bbf;
+}
+
+address.Contacts {
+  font-style: normal;
 }
 
 address.Contacts ul {
@@ -43,17 +60,24 @@ address.Contacts ul {
 }
 
 address.Contacts ul li a.studio-b {
-  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   text-decoration: none;
 }
 
-/* Main Styles */
+address.Contacts ul li a.studio-b:hover,
+address.Contacts ul li a.studio-b:focus {
+  color: #404bbf;
+}
+
 main {
   padding: 20px;
 }
 
 .section-bir {
-  background-color: #e7e9fc;
+  background-color: #2e2f42;
   text-align: center;
   padding: 50px 0;
 }
@@ -61,28 +85,30 @@ main {
 h1.baslik-bir {
   font-size: 56px;
   font-weight: bold;
-  letter-spacing: 2%;
-  line-height: 60px;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
 }
 
 button.button-bir {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  font-weight: medium;
-  letter-spacing: 4%;
-  line-height: 24px;
-  background-color: #31d0aa;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  color: white;
 }
 
-button.button-bir:hover {
-  background-color: #2e2f42;
+button.button-bir:hover,
+button.button-bir:focus {
+  background-color: #404bbf;
 }
 
-/* Section Styles */
 .section-iki ul,
 .section-uc ul,
 .section-dort ul {
@@ -95,26 +121,27 @@ button.button-bir:hover {
 
 h2.baslik-iki {
   font-size: 36px;
-  font-weight: bold;
-  letter-spacing: 2%;
-  color: #404bbf;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
   text-align: center;
   margin-bottom: 20px;
 }
 
 h3.baslik-uc {
+  font-weight: 500;
   font-size: 20px;
-  font-weight: medium;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 p.paragraf-iki,
 p.paragraf-bir {
   font-size: 16px;
-  font-weight: regular;
-  letter-spacing: 2%;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #8e8f99;
 }
 
@@ -138,12 +165,25 @@ p.paragraf-bir {
   width: 100%;
 }
 
+.Portfolio li:nth-child(1) img[src^="./images"],
+.Portfolio li:nth-child(2) img[src^="./images"],
+.Portfolio li:nth-child(3) img[src^="./images"],
+.Portfolio li:nth-child(4) img[src^="./images"],
+.Portfolio li:nth-child(5) img[src^="./images"],
+.Portfolio li:nth-child(6) img[src^="./images"] {
+  width: 360px;
+}
+
+.Portfolio li:nth-child(6) img[src$=".jpeg"],
+.Portfolio li:nth-child(6) img[src$=".jpg"] {
+  alt: "Online Courses photo";
+}
+
 .Portfolio h3.baslik-uc.portfolio-title,
 .Portfolio p.Marketing {
   margin: 10px 0;
 }
 
-/* Footer Styles */
 footer.footer-own {
   background-color: #2e2f42;
   padding: 20px;
@@ -153,17 +193,23 @@ footer.footer-own {
 
 footer a.footer-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   text-decoration: none;
+}
+
+footer a.footer-logo span {
+  color: #2e2f42;
 }
 
 footer p.footer-p {
   margin: 10px 0 0;
   font-size: 16px;
-  font-weight: regular;
-  letter-spacing: 2%;
-  line-height: 24px;
-  color: white;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
