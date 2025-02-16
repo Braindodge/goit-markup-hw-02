@@ -2,16 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  margin: 0;
-  padding: 0;
 }
-
 header {
-  background-color: #4d5ae5;
-  padding: 20px;
+  background-color: #ffffff;
 }
-
-nav a.logo-b {
+.logo-b {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -19,197 +14,182 @@ nav a.logo-b {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
-
-nav a.logo-b span {
+.span-b {
   color: #2e2f42;
 }
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a.nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-nav ul li a.nav-link:hover,
-nav ul li a.nav-link:focus {
-  color: #404bbf;
-}
-
-address.Contacts {
-  font-style: normal;
-}
-
-address.Contacts ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-address.Contacts ul li a.studio-b {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-address.Contacts ul li a.studio-b:hover,
-address.Contacts ul li a.studio-b:focus {
-  color: #404bbf;
-}
-
-main {
-  padding: 20px;
-}
-
-.section-bir {
-  background-color: #2e2f42;
-  text-align: center;
-  padding: 50px 0;
-}
-
-h1.baslik-bir {
-  font-size: 56px;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  line-height: 1.07;
-  text-align: center;
-  color: #ffffff;
-}
-
-button.button-bir {
-  background-color: #4d5ae5;
+.studio-b {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #404bbf;
+}
+header nav ul li a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.adres-b {
+  font-style: normal;
+}
+.mail-b {
+  letter-spacing: 0.02em;
+}
+address ul li a:hover,
+address ul li a:focus {
+  color: #404bbf;
+}
+header address ul li a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.section-bir {
+  background-color: #2e2f42;
+}
+.baslik-bir {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+.buton-bir {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.04em;
   color: #ffffff;
-  border: none;
-  padding: 10px 20px;
+  background: #4d5ae5;
   cursor: pointer;
 }
-
-button.button-bir:hover,
-button.button-bir:focus {
+Button:hover,
+Button:focus {
   background-color: #404bbf;
 }
-
-.section-iki ul,
-.section-uc ul,
-.section-dort ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.section-iki {
+  background-color: #ffffff;
 }
-
-h2.baslik-iki {
+.section-iki ul li h3 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-iki li p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.section-uc {
+  background-color: #f4f4fd;
+}
+.baslik-iki {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.section-uc ul {
+  background-color: #ffffff;
+}
+.list-uc {
+  background-color: #ffffff;
+}
+.section-uc ul li h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.baslik-uc {
+  font-size: 16px;
+}
+.section-uc ul li p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.section-dort {
+  background-color: #ffffff;
+}
+.section-dort h2 {
+  font-family: Roboto;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
   text-align: center;
-  margin-bottom: 20px;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
-
-h3.baslik-uc {
+.section-dort ul li h3 {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-p.paragraf-iki,
-p.paragraf-bir {
+.section-dort ul li p {
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   letter-spacing: 0.02em;
-  color: #8e8f99;
+  color: #434455;
 }
-
-.list-uc img {
-  width: 360px;
-  margin-bottom: 10px;
-}
-
-.list-uc h3.baslik-uc,
-.list-uc p.paragraf-bir {
-  text-align: center;
-}
-
-.Portfolio li {
-  width: 30%;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.Portfolio li img {
-  width: 100%;
-}
-
-.Portfolio li:nth-child(1) img[src^="./images"],
-.Portfolio li:nth-child(2) img[src^="./images"],
-.Portfolio li:nth-child(3) img[src^="./images"],
-.Portfolio li:nth-child(4) img[src^="./images"],
-.Portfolio li:nth-child(5) img[src^="./images"],
-.Portfolio li:nth-child(6) img[src^="./images"] {
-  width: 360px;
-}
-
-.Portfolio li:nth-child(6) img[src$=".jpeg"],
-.Portfolio li:nth-child(6) img[src$=".jpg"] {
-  alt: "Online Courses photo";
-}
-
-.Portfolio h3.baslik-uc.portfolio-title,
-.Portfolio p.Marketing {
-  margin: 10px 0;
-}
-
-footer.footer-own {
+footer {
   background-color: #2e2f42;
-  padding: 20px;
-  text-align: center;
-  color: white;
 }
-
-footer a.footer-logo {
+footer a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 3%;
   color: #4d5ae5;
-  text-decoration: none;
 }
-
-footer a.footer-logo span {
-  color: #2e2f42;
+.span-iki {
+  color: #f4f4fd;
 }
-
-footer p.footer-p {
-  margin: 10px 0 0;
+.parag-f {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
